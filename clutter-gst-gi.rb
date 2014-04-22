@@ -36,16 +36,18 @@ class ClutterGstGi < Formula
   end
 end
 __END__
-diff --git a/clutter-gst/clutter-gst-video-sink.h b/clutter-gst/clutter-gst-video-sink.h
-index 3a06804..fbfb10b 100644
+diff --git a/clutter-gst/clutter-gst-video-sink.h b/clutter-gst/clutter-gst-vide
+o-sink.h
+index 3a06804..e406702 100644
 --- a/clutter-gst/clutter-gst-video-sink.h
 +++ b/clutter-gst/clutter-gst-video-sink.h
-@@ -44,6 +44,8 @@
+@@ -41,6 +41,9 @@
+ #include <X11/Xlib.h>
+ #endif
+
++#ifdef __MACH__
++#include <OpenGL/GL.h>
++#endif //__MACH__
 
  G_BEGIN_DECLS
 
-+#define GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS 0x8B4D
-+
- #define CLUTTER_GST_TYPE_VIDEO_SINK clutter_gst_video_sink_get_type()
-
- #define CLUTTER_GST_VIDEO_SINK(obj) \
