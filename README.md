@@ -12,3 +12,4 @@ Currently, these formulae are porting into homebrew repository in progress.
 ### ported formulae
 
 * vte3 (done) 
+* json-glib (done)
