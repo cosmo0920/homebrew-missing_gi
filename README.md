@@ -14,3 +14,4 @@ Currently, these formulae are porting into homebrew repository in progress.
 * vte3 (done) 
 * json-glib (done)
 * cogl (done)
+* clutter (done)
