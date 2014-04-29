@@ -15,3 +15,4 @@ Currently, these formulae are porting into homebrew repository in progress.
 * json-glib (done)
 * cogl (done)
 * clutter (done)
+* clutter-gtk (done)
