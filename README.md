@@ -16,4 +16,4 @@ Currently, these formulae are porting into homebrew repository in progress.
 * cogl (done)
 * clutter (done)
 * clutter-gtk (done)
-* gstreamer (in progress)
+* gstreamer (done)
