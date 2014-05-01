@@ -17,4 +17,4 @@ Currently, these formulae are porting into homebrew repository in progress.
 * clutter (done)
 * clutter-gtk (done)
 * gstreamer (done)
-* gst-plugins-base (in progress)
+* gst-plugins-base (done)
