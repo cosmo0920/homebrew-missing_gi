@@ -7,7 +7,9 @@ These Formulae are experimental.
 
 ## Status
 
-Currently, these formulae are porting into homebrew repository in progress.
+Currently, these formulae are all ported into homebrew repository.
+
+Please use Homebrew Formula instead.
 
 ### ported formulae
 
@@ -18,4 +20,4 @@ Currently, these formulae are porting into homebrew repository in progress.
 * clutter-gtk (done)
 * gstreamer (done)
 * gst-plugins-base (done)
-* clutter-gst (in progress)
+* clutter-gst (done)
